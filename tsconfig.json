@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@talkapps/ts-unified/dist/config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["DOM"],
+    "outDir": "dist",
+    "paths": {"*": ["*", "src/*"]}
+  }
+}
