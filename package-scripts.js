@@ -1,1 +1,1 @@
-module.exports = require('@talkapps/ts-unified/dist/config/package-scripts')();
+module.exports = require('@darkobits/ts').nps();

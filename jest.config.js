@@ -1,4 +1,4 @@
-module.exports = require('@talkapps/ts-unified/dist/config/jest')({
+module.exports = require('@darkobits/ts').jest({
   coveragePathIgnorePatterns: [
     '<rootDir>/src/etc'
   ],
